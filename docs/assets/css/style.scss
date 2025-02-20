@@ -1,0 +1,14 @@
+.reading-time {
+    font-size: 0.7em; /* Adjust font size */
+    font-weight: bold; /* Make it stand out */
+    color: #b32020; /* A lighter gray color */
+    background-color: #f2f2f2; /* Light background */
+    padding: 10px; /* Add some space around the text */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block; /* Make it appear inline with text */
+    margin-top: 20px; /* Space above the reading time */
+}
+
+.reading-time strong {
+    color: #333; /* Darker color for emphasis */
+}
