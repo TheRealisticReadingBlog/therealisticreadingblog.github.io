@@ -1,3 +1,11 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import
+  "minima/auto",
+  "minima/initialize";
+
 .reading-time {
     font-size: 0.7em; /* Adjust font size */
     font-weight: bold; /* Make it stand out */
@@ -9,6 +17,12 @@
     margin-top: 20px; /* Space above the reading time */
 }
 
-.reading-time strong {
-    color: #333; /* Darker color for emphasis */
+.reading-time.short {
+    color: #4caf50; /* Green for quick reads */
+    background-color: #e8f5e9; /* Light green background */
+}
+
+.reading-time.long {
+    color: #f44336; /* Red for longer reads */
+    background-color: #ffebee; /* Light red background */
 }

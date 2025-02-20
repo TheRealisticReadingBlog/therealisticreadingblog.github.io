@@ -34,6 +34,8 @@ plugins:
 
 # minima:
 #   skin: auto
+sass:
+  sass_dir: .
 
 defaults:
   - scope:
