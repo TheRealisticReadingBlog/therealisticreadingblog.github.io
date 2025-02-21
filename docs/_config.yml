@@ -51,7 +51,7 @@ paginate: 3
 paginate_path: "/blog/page:num/"
 
 header_pages:
-  - index.md
+  # - index.md
   - about.md
   - blog/index.html
   - contact.md
