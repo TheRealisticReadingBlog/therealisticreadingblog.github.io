@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "This is the third page!"
+title:  "Another day, another blog post"
 date:   2025-02-20 11:03:18 +0000
 categories: jekyll update
 ---

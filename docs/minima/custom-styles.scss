@@ -1,2 +1,23 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.reading-time {
+    font-size: 0.7em; /* Adjust font size */
+    font-weight: bold; /* Make it stand out */
+    color: #b32020; /* A lighter gray color */
+    background-color: #f2f2f2; /* Light background */
+    padding: 10px; /* Add some space around the text */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block; /* Make it appear inline with text */
+    margin-top: 20px; /* Space above the reading time */
+}
+
+.reading-time.short {
+    color: #4caf50; /* Green for quick reads */
+    background-color: #e8f5e9; /* Light green background */
+}
+
+.reading-time.long {
+    color: #f44336; /* Red for longer reads */
+    background-color: #ffebee; /* Light red background */
+}

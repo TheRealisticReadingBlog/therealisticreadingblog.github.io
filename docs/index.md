@@ -4,38 +4,22 @@
 
 layout: home
 title: Home
-pagination: true
+# pagination: true
 ---
 
-<h1>{{ page.title }}</h1>
-
+<!-- <h1>{{ page.title }}</h1> -->
 
 <p>
 Hello, World! 🌍
 This is my homepage created with Jekyll and GitHub Pages.
+</p>
 
-Originally, I looked into creating a website with Wordpress. However, it became evident that that was a bit overkill for what I wanted!
+<p>
+Originally, I looked into creating a website with Wordpress. However, it became evident that that was a bit overkill for what I wanted! As a developer by day, I'd consider myself quite with Github - and with no upfront cost, it's a great option to get started.
+</p>
 
-As a developer by day, I'd consider myself quite with Github - and with no upfront cost, it's a great option to get started.
+<p>
+I'm hoping to use this blog to write book reviews, and encourage myself to reflect on what I actually read. Another benefit would be learning Jekyll! Once the blog is more established, I may consider moving away from a static site generator onto something more adventurous.
+</p>
 
-</p
->
-{% for post in paginator.posts %}
-  <article>
-    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    <p>{{ post.excerpt }}</p>
-  </article>
-{% endfor %}
-
-<!-- Pagination Links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Previous</a>
-  {% endif %}
-
-  <span>Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
-  {% endif %}
-</div>
+<img src="{{ '/assets/images/cover.jpg' | relative_url }}" alt="TheRealisticReadingBlog">

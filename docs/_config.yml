@@ -47,7 +47,7 @@ defaults:
       layout: "home"
       permalink: /blog/:year/:month/:day/:title.html
 
-paginate: 5
+paginate: 3
 paginate_path: "/blog/page:num/"
 
 header_pages:
