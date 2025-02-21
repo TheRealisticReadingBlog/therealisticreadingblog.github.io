@@ -23,3 +23,13 @@ I'm hoping to use this blog to write book reviews, and encourage myself to refle
 </p>
 
 <img src="{{ '/assets/images/cover.jpg' | relative_url }}" alt="TheRealisticReadingBlog">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5HNEWQ1FKX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5HNEWQ1FKX');
+</script>
