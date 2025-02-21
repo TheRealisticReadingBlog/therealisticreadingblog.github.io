@@ -29,7 +29,7 @@ layout: base
         {% endfor %}
       {%- endif -%}</p>
 
-      <p class="reading-time 
+    <p class="reading-time 
       {% if reading_time < 5 %}short{% else %}long{% endif %}">
       ⏳Estimated reading time: 
       {% assign word_count = page.content | split: " " | size %}

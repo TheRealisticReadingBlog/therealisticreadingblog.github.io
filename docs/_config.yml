@@ -47,6 +47,15 @@ defaults:
       layout: "home"
       permalink: /blog/:year/:month/:day/:title.html
 
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+header_pages:
+  - index.md
+  - about.md
+  - blog/index.html
+  - contact.md
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
